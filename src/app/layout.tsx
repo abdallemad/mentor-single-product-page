@@ -17,7 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Front End Mentor | Single Product Page | Abdalla Emad",
   description: "This is an excercise from AbdallaEmad",
-  
+  icons:{
+    icon:"/images/favicon-32x32.png"
+  }
 };
 
 export default function RootLayout({
